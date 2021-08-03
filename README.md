@@ -38,6 +38,9 @@ Cuando ya tenga todos los campos configurados de click en el botón ```Crear```.
 <br />
 
 ## Conexion con pgAdmin :electric_plug:
+1. Cuando abra *pgAdmin* por primera vez, se le solicita establecer una contraseña primaria, la cual sera requerida cada vez que abra la aplicación.
+<br />
+<p align="center"><img width="700" src="https://github.com/emeloibmco/IBM-Cloud-PostgreSQL-Despliegue/blob/main/Im%C3%A1genes/Password_inicio_pgadmin.PNG"></p>
 <br />
 
 ## CRUD en la base de datos :hammer:
