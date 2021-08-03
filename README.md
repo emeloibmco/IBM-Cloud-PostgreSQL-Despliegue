@@ -71,6 +71,28 @@ d. Para observar la tabla que acaba de crear, de click derecho sobre el servidor
 <br />
  
 ### 2. Agregar y visualizar datos
+El paso siguiente, consiste en insertar datos en la tabla que se acaba de crear, para ello realice lo siguiente:
+
+<br />
+
+a. Diríjase nuevamente al ```Query Editor``` y coloque el siguiente comando:
+```
+INSERT INTO nombre_tabla (columna_1, columna_2, ... , columna_n) VALUES(valor_1, valor_2, ... , valor_n);
+```
+
+> NOTA: recuerde reemplazar las variables de cada columna junto con el respectivo valor. Si trabaja con datos de tipo varchar, coloque el valor en comillas sencillas (ejemplo: 'Diana').
+<br />
+
+c. Para agregar lo datos a la tabla, de click en el botón ▶ (*Execute/Refresh F5*).
+
+<br />
+
+d. Para observar los datos en la tabla, regrese nuevamente a ```View/Edit Data``` ➡ ```All Rows``` en la tabla respectiva y allí puede visualice la información que acaba de registrar. .
+
+<br />
+
+<p align="center"><img width="700" src="https://github.com/emeloibmco/IBM-Cloud-PostgreSQL-Despliegue/blob/main/Im%C3%A1genes/InsertarDatos.gif"></p>
+
 <br />
 
 ### 3. Actualizar datos
