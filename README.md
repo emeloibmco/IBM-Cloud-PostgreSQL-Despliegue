@@ -55,7 +55,7 @@ b. Posteriormente, en el ```Query Editor``` coloque el siguiente comando:
 CREATE TABLE nombre_tabla (id serial, columna_1 tipo_dato, columna_2 tipo_dato, ... , columna_n tipo_dato, primary key (id));
 ```
 
-> NOTA: los valores ```id serial``` y ```primary key (id)``` se utilizan para generar el ID de la transacción de forma automática. En la imagen puede ver un ejemplo con más detalle que incluye difentes variables con sus tipos de datos.
+> NOTA: los valores ```id serial``` y ```primary key (id)``` se utilizan para generar el ID de la transacción de forma automática. Reemplace las variables correspondientes a cada columna y asigne el tipo de dato a cada una. En la imagen puede ver un ejemplo con más detalle que incluye difentes variables con sus tipos de datos.
 <br />
 
 c. Para crear la tabla, de click en el botón ▶ (*Execute/Refresh F5*).
