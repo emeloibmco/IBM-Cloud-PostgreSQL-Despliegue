@@ -42,7 +42,9 @@ Cuando ya tenga todos los campos configurados de click en el botón ```Crear```.
 <br />
 <p align="center"><img width="700" src="https://github.com/emeloibmco/IBM-Cloud-PostgreSQL-Despliegue/blob/main/Im%C3%A1genes/Password_inicio_pgadmin.PNG"></p>
 <br />
+
 2. Consulte la información relevante del servicio de *Databases for PostgreSQL* creado en *IBM*, la cual será requerida en el paso siguiente.
+
 * Ingrese a  ```Overview```, desplácese hasta el final de la página ```Endpoints``` > ```PostgreSQL```.
 * Identifique el ```Hostname```
 * Identifique el ```Port```
@@ -58,7 +60,7 @@ Por último, para obtener la constraseña, dirijase a ```Settings``` > ```Change
 <br />
 <p align="center"><img width="700" src="https://github.com/emeloibmco/IBM-Cloud-PostgreSQL-Despliegue/blob/main/Im%C3%A1genes/Password.PNG"></p>
 
-4. En *pgAdmin*, ```Dashboard``` seleccione ```Add New Server```. A continuación se desplegará una ventana en donde debe llenar los siguientes campos:
+3. En *pgAdmin*, ```Dashboard``` seleccione ```Add New Server```. A continuación se desplegará una ventana en donde debe llenar los siguientes campos:
 
 En la pestaña ```General```:
 
