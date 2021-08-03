@@ -87,6 +87,8 @@ En la pestaña ```SSL```:
 <p align="center"><img width="700" src="https://github.com/emeloibmco/IBM-Cloud-PostgreSQL-Despliegue/blob/main/Im%C3%A1genes/Conexion_pgAdmin_parte3.PNG"></p>
 <br />
 
+Cuando tenga todas las pestañas configuradas, de click en ```Save``` para que *pgAdmin* se conecte a su implementación.
+
 ## CRUD en la base de datos :hammer:
 Una vez se ha creado y conectado la base de datos con *pgAdmin*, se continúa el ejercicio con las operaciones del CRUD (Create, Read, Update & Delete). Para ello, se presentan a continuación los pasos que se deben realizar para llevar a cabo cada una de estas operaciones:
 <br />
