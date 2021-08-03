@@ -44,7 +44,7 @@ CREATE TABLE nombre_tabla (id serial, columna_1 tipo_dato, columna_2 tipo_dato, 
 > NOTA: los valores ```id serial``` y ```primary key (id)``` se utilizan para generar el ID de la transacción de forma automática. En la imagen puede ver un ejemplo con más detalle que incluye difentes variables con sus tipos de datos.
 <br />
 
-c. Para crear la tabla, de click en la opción ▶ (*Execute/Refresh F5*).
+c. Para crear la tabla, de click en el botón ▶ (*Execute/Refresh F5*).
 
 <br />
 
