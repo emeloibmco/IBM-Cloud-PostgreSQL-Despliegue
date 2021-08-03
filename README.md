@@ -56,13 +56,13 @@ d. Para observar la tabla que acaba de crear, de click derecho sobre el servidor
 
 <br />
  
-2. **Agregar y visualizar datos**
+### 2. Agregar y visualizar datos
 <br />
 
-3. **Actualizar datos**
+### 3. Actualizar datos
 <br />
 
-4. **Eliminar datos**
+### 4. Eliminar datos
 
 <br />
 
