@@ -18,10 +18,13 @@
 
 ## Crear Base de datos PostgreSQL :floppy_disk:
 <br />
+
 ## Conexion con pgAdmin :electric_plug:
 <br />
+
 ## CRUD en la base de datos :hammer:
 <br />
+
 ## Referencias :mag:
 * <a href="https://cloud.ibm.com/docs/databases-for-postgresql?topic=databases-for-postgresql-getting-started"> Get Started PostgreSQL</a>.
 
