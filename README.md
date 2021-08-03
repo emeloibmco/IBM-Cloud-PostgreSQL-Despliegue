@@ -35,7 +35,7 @@ Teniendo en cuenta que ya existe la base de datos (*ibmclouddb* - creada al cone
 
 Posteriormente, en el ```Query Editor``` coloque el siguiente comando para crear la tabla:
 ```
-CREATE TABLE nombre_tabla (id serial, variable1 tipo_dato, variable2 tipo_dato, ... , variablen tipo_dato, primary key (id));
+CREATE TABLE nombre_tabla (id serial, variable_1 tipo_dato, variable_2 tipo_dato, ... , variablen tipo_dato, primary key (id));
 ```
 
 > NOTA: los valores ```id serial``` y ```primary key (id)``` se utilizan para generar el ID de la transacción de forma automática. En la imagen puede ver un ejemplo con más detalle que incluye difentes variables y tipos de datos.
