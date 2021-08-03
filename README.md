@@ -31,15 +31,17 @@ Una vez se ha creado y conectado la base de datos con *pgAdmin*, se continúa el
 <br />
 
 ### 1. Crear Tabla:
-Teniendo en cuenta que ya existe la base de datos (*ibmclouddb* - creada al conectar el servidor), se debe crear la tabla en la cual se van a almacenar los datos. Para ello, asegurándose de tener seleccionada la base de datos en la cual va a trabajar, de click en la pestaña ```Tools``` y luego seleccione la opción ```Query Tool```. 
+a. Teniendo en cuenta que ya existe la base de datos (*ibmclouddb* - creada al conectar el servidor), se debe crear la tabla en la cual se van a almacenar los datos. Para ello, asegurándose de tener seleccionada la base de datos en la cual va a trabajar, de click en la pestaña ```Tools``` y luego seleccione la opción ```Query Tool```. 
+<br />
 
-Posteriormente, en el ```Query Editor``` coloque el siguiente comando para crear la tabla:
+b. Posteriormente, en el ```Query Editor``` coloque el siguiente comando:
 ```
 CREATE TABLE nombre_tabla (id serial, variable_1 tipo_dato, variable_2 tipo_dato, ... , variablen tipo_dato, primary key (id));
 ```
-
 > NOTA: los valores ```id serial``` y ```primary key (id)``` se utilizan para generar el ID de la transacción de forma automática. En la imagen puede ver un ejemplo con más detalle que incluye difentes variables y tipos de datos.
+<br />
 
+c. Para crear la tabla, de click en la opción ▶ (*Execute/Refresh F5*).
 <br />
 
 <p align="center"><img width="700" src="https://github.com/emeloibmco/IBM-Cloud-PostgreSQL-Despliegue/blob/main/Im%C3%A1genes/CrearTabla.gif"></p>
