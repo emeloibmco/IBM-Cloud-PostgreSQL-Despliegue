@@ -87,7 +87,7 @@ b. De click en el botón ▶ (*Execute/Refresh F5*) para agregar los datos a la 
 
 <br />
 
-c. Para bservar los datos en la tabla, regrese nuevamente a ```View/Edit Data``` ➡ ```All Rows``` en la tabla respectiva. De click en el botón ▶ (*Execute/Refresh F5*) y a continuación podrá visualizar la información que acaba de registrar. 
+c. Para observar los datos en la tabla, regrese nuevamente a ```View/Edit Data``` ➡ ```All Rows``` en la tabla respectiva. De click en el botón ▶ (*Execute/Refresh F5*) y a continuación podrá visualizar la información que acaba de registrar. 
 
 <br />
 
