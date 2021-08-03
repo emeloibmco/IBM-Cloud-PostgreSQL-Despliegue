@@ -89,6 +89,8 @@ En la pestaña ```SSL```:
 
 Cuando tenga todas las pestañas configuradas, de click en ```Save``` para que *pgAdmin* se conecte a su implementación.
 
+<br />
+
 ## CRUD en la base de datos :hammer:
 Una vez se ha creado y conectado la base de datos con *pgAdmin*, se continúa el ejercicio con las operaciones del CRUD (Create, Read, Update & Delete). Para ello, se presentan a continuación los pasos que se deben realizar para llevar a cabo cada una de estas operaciones:
 <br />
