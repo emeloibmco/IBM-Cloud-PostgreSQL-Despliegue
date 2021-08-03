@@ -48,7 +48,7 @@ c. Para crear la tabla, de click en el botón ▶ (*Execute/Refresh F5*).
 
 <br />
 
-d. Para observar la tabla que acaba de crear, de click derecho sobre el servidor conectado y seleccione la opción ```Refresh```. Por último, dentro de la base de datos en las opciones ```Schemas/Tables``` de click derecho sobre la tabla creada y seleccione la opción ```View/Edit Data``` ➡ ```All Rows```. Allí puede visualizar la tabla y en la pestaña ```Data Output``` puede observar que aparecen las respectivas columnas con sus tipos de datos.
+d. Para observar la tabla que acaba de crear, de click derecho sobre el servidor conectado y seleccione la opción ```Refresh```. Por último, dentro de la base de datos en las opciones ```Schemas/public/Tables``` de click derecho sobre la tabla creada y seleccione la opción ```View/Edit Data``` ➡ ```All Rows```. Allí puede visualizar la tabla y en la pestaña ```Data Output``` puede observar que aparecen las respectivas columnas con sus tipos de datos.
 
 <br />
 
