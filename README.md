@@ -38,9 +38,6 @@ Cuando ya tenga todos los campos configurados de click en el botón ```Crear```.
 <br />
 
 ## Conexion con pgAdmin :electric_plug:
-1. Cuando abra *pgAdmin* por primera vez, se le solicita establecer una contraseña primaria, la cual sera requerida cada vez que abra la aplicación.
-<br />
-<p align="center"><img width="700" src="https://github.com/emeloibmco/IBM-Cloud-PostgreSQL-Despliegue/blob/main/Im%C3%A1genes/Password_inicio_pgadmin.PNG"></p>
 <br />
 
 ## CRUD en la base de datos :hammer:
@@ -83,14 +80,14 @@ a. Diríjase nuevamente al ```Query Editor``` y coloque el siguiente comando:
 INSERT INTO nombre_tabla (columna_1, columna_2, ... , columna_n) VALUES(valor_1, valor_2, ... , valor_n);
 ```
 
-> NOTA: recuerde reemplazar las variables de cada columna junto con el respectivo valor. Si trabaja con datos de tipo varchar, coloque el valor en comillas sencillas (ejemplo: 'teamcloud').
+> NOTA: recuerde reemplazar las variables de cada columna junto con el respectivo valor. Si trabaja con datos de tipo varchar, coloque el valor en comillas sencillas (ejemplo: 'teamcloud'). En la imagen puede ver un ejemplo más detallado.
 <br />
 
-c. Para agregar lo datos a la tabla, de click en el botón ▶ (*Execute/Refresh F5*).
+b. De click en el botón ▶ (*Execute/Refresh F5*) para agregar lo datos a la tabla, 
 
 <br />
 
-d. Para observar los datos en la tabla, regrese nuevamente a ```View/Edit Data``` ➡ ```All Rows``` en la tabla respectiva y allí puede visualice la información que acaba de registrar. .
+c. Para bservar los datos en la tabla, regrese nuevamente a ```View/Edit Data``` ➡ ```All Rows``` en la tabla respectiva. De click en el botón ▶ (*Execute/Refresh F5*) y a continuación podrá visualizar la información que acaba de registrar. 
 
 <br />
 
@@ -99,6 +96,28 @@ d. Para observar los datos en la tabla, regrese nuevamente a ```View/Edit Data``
 <br />
 
 ### 3. Actualizar datos
+Para actualizar los datos ya registrados en la tabla, utilice los siguientes comandos:
+
+<br />
+
+a. Diríjase nuevamente al ```Query Editor``` y coloque el siguiente comando:
+```
+UPDATE nombre_tabla set columna_1='valorx' where id=1;
+```
+
+> NOTA: para este caso cambie el valor ```columna_1``` con el nombre de la variable que desea modificar, adicionalmente asigne el valor que desea visualizar ahora en dicha variable. Por otro lado, se utilica el ```id``` para identificar a que transacción se le desea realizar la modificación (en este caso el id de la transacción 1). En la imagen puede ver un ejemplo más detallado.
+<br />
+
+b. De click en el botón ▶ (*Execute/Refresh F5*) para aplicar los cambios y actualizar los datos en la tabla.
+
+<br />
+
+c. Para observar los datos en la tabla, regrese nuevamente a ```View/Edit Data``` ➡ ```All Rows``` en la tabla respectiva. De click en el botón ▶ (*Execute/Refresh F5*) y a continuación podrá visualizar la información que acaba de modificar. 
+
+<br />
+
+<p align="center"><img width="700" src="https://github.com/emeloibmco/IBM-Cloud-PostgreSQL-Despliegue/blob/main/Im%C3%A1genes/ActualizarDatos.gif"></p>
+
 <br />
 
 ### 4. Eliminar datos
