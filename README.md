@@ -96,7 +96,7 @@ c. Para observar los datos en la tabla, regrese nuevamente a ```View/Edit Data``
 <br />
 
 ### 3. Actualizar datos
-Para actualizar los datos ya registrados en la tabla, utilice los siguientes comandos:
+Para actualizar los datos ya registrados en la tabla, realice los siguientes pasos:
 
 <br />
 
