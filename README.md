@@ -83,7 +83,7 @@ INSERT INTO nombre_tabla (columna_1, columna_2, ... , columna_n) VALUES(valor_1,
 > NOTA: recuerde reemplazar las variables de cada columna junto con el respectivo valor. Si trabaja con datos de tipo varchar, coloque el valor en comillas sencillas (ejemplo: 'teamcloud'). En la imagen puede ver un ejemplo más detallado.
 <br />
 
-b. De click en el botón ▶ (*Execute/Refresh F5*) para agregar los datos a la tabla, 
+b. De click en el botón ▶ (*Execute/Refresh F5*) para agregar los datos a la tabla.
 
 <br />
 
