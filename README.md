@@ -46,7 +46,7 @@ CREATE TABLE nombre_tabla (id serial, columna_1 tipo_dato, columna_2 tipo_dato, 
 c. Para crear la tabla, de click en la opción ▶ (*Execute/Refresh F5*).
 <br />
 
-d. Para observar la tabla que acaba de crear, de click derecho sobre el servidor conectado y seleccione la opción ```Refresh```. Por último, dentro de la base de datos en las opciones ```Schemas/Tables``` de click derecho sobre la tabla creada y seleccione la opción ```View/Edit Data``` ➡ ```All Rows```. Allí podrá visualizar la tabla con las respectivas columenas y tipos de datos-
+d. Para observar la tabla que acaba de crear, de click derecho sobre el servidor conectado y seleccione la opción ```Refresh```. Por último, dentro de la base de datos en las opciones ```Schemas/Tables``` de click derecho sobre la tabla creada y seleccione la opción ```View/Edit Data``` ➡ ```All Rows```. Allí puede visualizar la tabla y en la pestaña ```Data Output``` observer que aparecen las respectivas columnas y tipos de datos.
 <p align="center"><img width="700" src="https://github.com/emeloibmco/IBM-Cloud-PostgreSQL-Despliegue/blob/main/Im%C3%A1genes/CrearTabla.gif"></p>
 
 <br />
