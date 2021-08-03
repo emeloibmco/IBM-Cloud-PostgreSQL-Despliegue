@@ -71,7 +71,7 @@ d. Para observar la tabla que acaba de crear, de click derecho sobre el servidor
 <br />
  
 ### 2. Agregar y visualizar datos
-El paso siguiente, consiste en insertar datos en la tabla que se acaba de crear, para ello realice lo siguiente:
+El paso siguiente consiste en insertar datos en la tabla que se acaba de crear, para ello realice lo siguiente:
 
 <br />
 
@@ -105,7 +105,7 @@ a. Diríjase nuevamente al ```Query Editor``` y coloque el siguiente comando:
 UPDATE nombre_tabla set columna_1='valorx' where id=1;
 ```
 
-> NOTA: para este caso cambie el valor ```columna_1``` con el nombre de la variable que desea modificar, adicionalmente asigne el valor que desea visualizar ahora en dicha variable. Por otro lado, se utilica el ```id``` para identificar a que transacción se le desea realizar la modificación (en este caso el id de la transacción 1). En la imagen puede ver un ejemplo más detallado.
+> NOTA: para este caso cambie el valor ```columna_1``` con el nombre de la variable que desea modificar, adicionalmente asigne el valor que desea visualizar ahora en dicha variable. Por otro lado, se utiliza el ```id``` para identificar a que transacción se le desea realizar la modificación (en este caso el id de la transacción 1). En la imagen puede ver un ejemplo más detallado.
 <br />
 
 b. De click en el botón ▶ (*Execute/Refresh F5*) para aplicar los cambios y actualizar los datos en la tabla.
@@ -121,6 +121,27 @@ c. Para observar los datos en la tabla, regrese nuevamente a ```View/Edit Data``
 <br />
 
 ### 4. Eliminar datos
+Para eliminar los datos ya registrados en la tabla, realice lo siguiente:
+
+<br />
+
+a. Diríjase nuevamente al ```Query Editor``` y coloque el siguiente comando:
+```
+DELETE FROM nombre_tabla WHERE id=1;
+```
+
+> NOTA: para este caso cambie el valor ```nombre_tabla``` con el nombre de la tabla en la que desea eliminar datos. Adicionalmente, utilice el ```id``` para identificar que transacción se desea eliminar(en este caso el id de la transacción 1). En la imagen puede ver un ejemplo más detallado.
+<br />
+
+b. De click en el botón ▶ (*Execute/Refresh F5*) para aplicar los cambios y actualizar la información en la tabla.
+
+<br />
+
+c. Para observar nuevamente la tabla, regrese a ```View/Edit Data``` ➡ ```All Rows```. De click en el botón ▶ (*Execute/Refresh F5*) y a continuación podrá visualizar que la información eliminada ya no aparece. 
+
+<br />
+
+<p align="center"><img width="700" src="https://github.com/emeloibmco/IBM-Cloud-PostgreSQL-Despliegue/blob/main/Im%C3%A1genes/EliminarDatos.gif"></p>
 
 <br />
 
