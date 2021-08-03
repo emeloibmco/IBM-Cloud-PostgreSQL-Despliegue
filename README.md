@@ -1,7 +1,7 @@
 # IBM Cloud - PostgreSQL Despliegue ☁🚀📚
 *IBM® Cloud Databases for PostgreSQL* es una poderosa base de datos relacional de código abierto, que es altamente personalizable. Es una base de datos empresarial rica en funciones con soporte JSON, que le brinda lo mejor de los mundos SQL y NoSQL. Adicionalmente, puede hacer uso de *pgAdmin* una plataforma de administración de código abierto para PostgreSQL que proporciona diversas herramientas para gestionar los datos y las bases de datos.
 
-La presente guía esta enfocada a crear un despliegue de *IBM® Cloud Databases for PostgreSQL* y sobre la base de datos aprovisionar reealizar operaciones de inserción, actualización y eliminación de datos.
+La presente guía esta enfocada en crear un despliegue de *IBM® Cloud Databases for PostgreSQL* y sobre la base de datos aprovisionar reealizar operaciones de inserción, actualización y eliminación de datos.
 <br />
 
 ## Índice  📰
