@@ -34,7 +34,7 @@ Las demás caracteristicas se seleccionan por defecto.
 Cuando ya tenga todos los campos configurados de click en el botón ```Crear```.
 
 <br />
-<p align="center"><img width="700" src="https://github.com/emeloibmco/IBM-Cloud-PostgreSQL-Despliegue/blob/main/Im%C3%A1genes/CrearTabla.gif"></p>
+<p align="center"><img width="700" src="https://github.com/emeloibmco/IBM-Cloud-PostgreSQL-Despliegue/blob/main/Im%C3%A1genes/CrearDB.gif"></p>
 <br />
 
 ## Conexion con pgAdmin :electric_plug:
