@@ -14,9 +14,9 @@ La presente guía esta enfocada en crear un despliegue de *IBM® Cloud Databases
 <br />
 
 ## Pre Requisitos :pencil:
-* Contar con una cuenta en <a href="https://cloud.ibm.com/"> IBM Cloud </a>.
+* Contar con una cuenta en <a href="https://cloud.ibm.com/"> IBM Cloud</a>.
 * Contar con un grupo de recursos específico para la implementación de los recursos.
-* Instalación de pgAdmin 4.
+* Instalación de <a href="https://www.pgadmin.org/download/"> pgAdmin 4</a>. 
 <br />
 
 ## Crear Base de datos PostgreSQL :floppy_disk:
