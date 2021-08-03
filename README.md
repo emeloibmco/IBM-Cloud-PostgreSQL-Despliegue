@@ -37,7 +37,7 @@ Cuando ya tenga todos los campos configurados de click en el botón ```Crear```.
 <p align="center"><img width="700" src="https://github.com/emeloibmco/IBM-Cloud-PostgreSQL-Despliegue/blob/main/Im%C3%A1genes/CrearDB.gif"></p>
 <br />
 
-## Conexion con pgAdmin :electric_plug:
+## Conexión con pgAdmin :electric_plug:
 <br />
 
 ## CRUD en la base de datos :hammer:
