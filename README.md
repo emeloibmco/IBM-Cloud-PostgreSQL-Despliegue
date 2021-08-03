@@ -32,6 +32,7 @@ Una vez se ha creado y conectado la base de datos con *pgAdmin*, se continúa el
 
 ### 1. Crear Tabla:
 a. Teniendo en cuenta que ya existe la base de datos (*ibmclouddb* - creada al conectar el servidor), se debe crear la tabla en la cual se van a almacenar los datos. Para ello, asegurándose de tener seleccionada la base de datos en la cual va a trabajar, de click en la pestaña ```Tools``` y luego seleccione la opción ```Query Tool```. 
+
 <br />
 
 
