@@ -80,7 +80,7 @@ a. Diríjase nuevamente al ```Query Editor``` y coloque el siguiente comando:
 INSERT INTO nombre_tabla (columna_1, columna_2, ... , columna_n) VALUES(valor_1, valor_2, ... , valor_n);
 ```
 
-> NOTA: recuerde reemplazar las variables de cada columna junto con el respectivo valor. Si trabaja con datos de tipo varchar o de tipo date, coloque el valor en comillas sencillas (ejemplo: 'teamcloud'). En la imagen puede ver un ejemplo más detallado.
+> NOTA: recuerde reemplazar las variables de cada columna junto con el respectivo valor. Si trabaja con datos de tipo varchar o tipo date, coloque el valor en comillas sencillas (ejemplo: 'teamcloud'). En la imagen puede ver un ejemplo más detallado.
 <br />
 
 b. De click en el botón ▶ (*Execute/Refresh F5*) para agregar los datos a la tabla.
@@ -102,7 +102,7 @@ Para actualizar los datos ya registrados en la tabla, realice los siguientes pas
 
 a. Diríjase nuevamente al ```Query Editor``` y coloque el siguiente comando:
 ```
-UPDATE nombre_tabla set columna_1='valorx' where id=1;
+UPDATE nombre_tabla set columna_1=valor_nuevo where id=1;
 ```
 
 > NOTA: para este caso cambie el valor ```columna_1``` con el nombre de la variable que desea modificar, adicionalmente asigne el valor que desea visualizar ahora en dicha variable. Por otro lado, se utiliza el ```id``` para identificar a que transacción se le desea realizar la modificación (en este caso el id de la transacción 1). En la imagen puede ver un ejemplo más detallado.
