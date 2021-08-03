@@ -21,7 +21,20 @@ La presente guía esta enfocada en crear un despliegue de *IBM® Cloud Databases
 <br />
 
 ## Crear Base de datos PostgreSQL :floppy_disk:
+Para realizar el ejercicio lo primero que debe hacer es crear una *Base de datos PostgreSQL* en su cuenta de *IBM Cloud*. Para ello, siga los pasos que se indican a continuación:
+1. Con <a href="https://cloud.ibm.com/catalog/services/databases-for-postgresql">Databases for PostgreSQL</a>, automaticamente será redirigido a la creación de la base de datos.
+2. Una vez le aparezca la ventana para la configuración y creación de la *Base de Datos*, complete lo siguiente:
+* ```Ubicación```: seleccione la ubicación en la cual desea implementar la *Base de Datos*.
+* ```Plan de precios```: Standard
+* ```Nombre```: asigne un nombre exclusivo para la *Base de Datos*.
+* ```Grupo de recursos```: seleccione el grupo de recursos en el cual va a trabajar.
 
+Las demás caracteristicas se seleccionan por defecto. 
+
+Cuando ya tenga todos los campos configurados de click en el botón ```Crear```.
+
+<br />
+<p align="center"><img width="700" src="https://github.com/emeloibmco/IBM-Cloud-PostgreSQL-Despliegue/blob/main/Im%C3%A1genes/CrearTabla.gif"></p>
 <br />
 
 ## Conexion con pgAdmin :electric_plug:
