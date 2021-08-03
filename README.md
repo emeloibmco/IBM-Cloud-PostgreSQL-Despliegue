@@ -27,6 +27,20 @@ La presente guía esta enfocada en crear un despliegue de *IBM® Cloud Databases
 <br />
 
 ## CRUD en la base de datos :hammer:
+Una vez se ha creado y conectado la base de datos con *pgAdmin*, se continúa el ejercicio con las operaciones del CRUD (Create, Read, Update & Delete). Para ello, se presentan a continuación los pasos que se deben realizar para llevar a cabo cada una de estas operaciones.
+<br />
+
+1. **Crear Tabla**
+<br />
+ 
+2. **Agregar y visualizar datos**
+<br />
+
+3. **Actualizar datos**
+<br />
+
+4. **Eliminar datos**
+
 <br />
 
 ## Referencias :mag:
