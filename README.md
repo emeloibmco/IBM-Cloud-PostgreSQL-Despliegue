@@ -38,6 +38,51 @@ Cuando ya tenga todos los campos configurados de click en el botón ```Crear```.
 <br />
 
 ## Conexión con pgAdmin :electric_plug:
+1. Cuando abra *pgAdmin* por primera vez, se le solicita establecer una contraseña primaria, la cual será requerida cada vez que abra la aplicación.
+<br />
+<p align="center"><img width="700" src="https://github.com/emeloibmco/IBM-Cloud-PostgreSQL-Despliegue/blob/main/Im%C3%A1genes/Password_inicio_pgadmin.PNG"></p>
+<br />
+2. Consulte la información relevante del servicio de *Databases for PostgreSQL* creado en *IBM*, la cual será requerida en el paso siguiente.
+* Ingrese a  ```Overview```, desplácese hasta el final de la página ```Endpoints``` > ```PostgreSQL```.
+* Identifique el ```Hostname```
+* Identifique el ```Port```
+* Identifique el ```SSL Mode```
+* Descargue el ```TLS certificate```
+<br />
+<p align="center"><img width="700" src="https://github.com/emeloibmco/IBM-Cloud-PostgreSQL-Despliegue/blob/main/Im%C3%A1genes/Credenciales.PNG"></p>
+
+Por último, para obtener la constraseña, dirijase a ```Settings``` > ```Change Database Admin Password``` y siga los pasos a continuación:
+* Seleccione la opción  ```Generate Password```
+* Una vez sea generada, guardela.
+* De clik en ```Change Password```
+<br />
+<p align="center"><img width="700" src="https://github.com/emeloibmco/IBM-Cloud-PostgreSQL-Despliegue/blob/main/Im%C3%A1genes/Password.PNG"></p>
+
+4. En *pgAdmin*, ```Dashboard``` seleccione ```Add New Server```. A continuación se desplegará una ventana en donde debe llenar los siguientes campos:
+
+En la pestaña ```General```:
+
+* ```Name```: asigne un nombre exclusivo para el servicio.
+<br />
+<p align="center"><img width="700" src="https://github.com/emeloibmco/IBM-Cloud-PostgreSQL-Despliegue/blob/main/Im%C3%A1genes/Conexion_pgAdmin_parte1.PNG"></p>
+
+En la pestaña ```Connection```:
+
+* ```Host name/address```: Indique el ```Hostname``` de la información relevante de la base de datos.
+* ```Port```: Indique el ```Port``` de la información relevante de la base de datos.
+* ```Maintenance database```: postgres
+* ```Username```: admin
+*  ```Password```: Indique la ```Password``` guardada en el paso anterior.
+Los campos ```Role``` y ```Service``` pueden quedar vacios.
+<br />
+<p align="center"><img width="700" src="https://github.com/emeloibmco/IBM-Cloud-PostgreSQL-Despliegue/blob/main/Im%C3%A1genes/Conexion_pgAdmin_parte2.PNG"></p>
+
+En la pestaña ```SSL```:
+
+* ```SSL Mode```: Inidque el ```SSL Mode``` de la información relevante de la base de datos.
+* ```Root Certificate```: Cargue el archivo del certificado descargado en el paso anterior.
+<br />
+<p align="center"><img width="700" src="https://github.com/emeloibmco/IBM-Cloud-PostgreSQL-Despliegue/blob/main/Im%C3%A1genes/Conexion_pgAdmin_parte3.PNG"></p>
 <br />
 
 ## CRUD en la base de datos :hammer:
