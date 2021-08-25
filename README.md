@@ -67,7 +67,7 @@ Para realizar la conexión y prueba de la base de datos con el Shell de *IBM* re
 ibmcloud target -r <region>
 ```
 
-> NOTA: Reemplace el parámetro <region> con su respetiva información. Por ejemplo: ```us-south``` para Dallas y ```us-east``` para Washington.
+> NOTA: Reemplace el parámetro \<region> con su respetiva información. Por ejemplo: ```us-south``` para Dallas y ```us-east``` para Washington.
 <br />
  
 2. 
