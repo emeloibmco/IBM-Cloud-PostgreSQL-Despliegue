@@ -46,9 +46,11 @@ Cuando ya tenga todos los campos configurados de click en el botón ```Crear```.
 
 ## Generar contraseña en servicio PostgreSQL :closed_lock_with_key:
 Para obtener realizar la conexión con la base de datos deberá generar una constraseña en el servicio. Para ello, de click en la pestaña ```Settings``` ➡ ```Change Database Admin Password``` y siga los pasos a continuación:
-* Seleccione la opción  ```Generate Password```
-* Una vez sea generada, guardela.
-* De clik en ```Change Password```
+1. Seleccione la opción  ```Generate Password```.
+
+2. Una vez sea generada, guardela.
+
+3. De clik en ```Change Password```.
 <br />
 
 <p align="center"><img width="700" src="https://github.com/emeloibmco/IBM-Cloud-PostgreSQL-Despliegue/blob/main/Im%C3%A1genes/Password.PNG"></p>
@@ -58,6 +60,12 @@ Para obtener realizar la conexión con la base de datos deberá generar una cons
 Para realizar la conexión y prueba de la base de datos con el Shell de *IBM* realice lo siguiente:
 
 1. Dentro de su cuenta de *IBM Cloud* acceda al ```IBM Cloud Shell``` dando click en la pestaña <a href="https://cloud.ibm.com/shell"> <img width="25" src="https://github.com/emeloibmco/IBM-Cloud-PostgreSQL-Despliegue/blob/main/Im%C3%A1genes/Shell_IBM.PNG"></a>, que se ubica en la parte superior derecha del portal. 
+<br />
+
+2. Asegúrese de estar en le región en donde tiene desplegada su base de datos. Si debe cambiar de región utilice el comando:
+```
+ibmcloud target -r <region>
+```
 <br />
 
 ## CRUD en la base de datos con IBM Cloud Shell :pick:
