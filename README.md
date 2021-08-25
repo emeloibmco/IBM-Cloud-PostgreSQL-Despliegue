@@ -320,8 +320,8 @@ En la pestaña ```Connection```:
 
 En la pestaña ```SSL```:
 
-* ```SSL Mode```: Inidque el ```SSL Mode``` de la información relevante de la base de datos.
-* ```Root Certificate```: Cargue el archivo del certificado descargado en el paso anterior.
+* ```SSL Mode```: indique el ```SSL Mode``` de la información relevante de la base de datos.
+* ```Root Certificate```: cargue el archivo del certificado descargado en el paso anterior.
 <br />
 <p align="center"><img width="700" src="https://github.com/emeloibmco/IBM-Cloud-PostgreSQL-Despliegue/blob/main/Im%C3%A1genes/Conexion_pgAdmin_parte3.PNG"></p>
 <br />
