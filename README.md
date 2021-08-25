@@ -95,7 +95,7 @@ ibmcloud target -g <grupo_recursos>
 > NOTA: Reemplace el parámetro \<grupo_recursos> con su respetiva información. 
 <br />
  
-4. Luego de establecer la región y el grupo de recursos, coloque el siguiente comando para instalar el plugin ```ibmcloud cdb```:
+4. Luego de establecer la región y el grupo de recursos, coloque el siguiente comando para instalar el plugin **ibmcloud cdb**:
 ```
 ibmcloud plugin install cloud-databases
 ```
