@@ -313,7 +313,7 @@ En la pestaña ```Connection```:
 * ```Port```: Indique el ```Port``` de la información relevante de la base de datos.
 * ```Maintenance database```: postgres
 * ```Username```: admin
-*  ```Password```: Indique la contraseña stablecida en el paso [Generar contraseña en servicio PostgreSQL](#Generar-contraseña-en-servicio-PostgreSQL-closed_lock_with_key).
+*  ```Password```: Indique la contraseña establecida en el paso [Generar contraseña en servicio PostgreSQL](#Generar-contraseña-en-servicio-PostgreSQL-closed_lock_with_key).
 Los campos ```Role``` y ```Service``` pueden quedar vacios.
 <br />
 <p align="center"><img width="700" src="https://github.com/emeloibmco/IBM-Cloud-PostgreSQL-Despliegue/blob/main/Im%C3%A1genes/Conexion_pgAdmin_parte2.PNG"></p>
