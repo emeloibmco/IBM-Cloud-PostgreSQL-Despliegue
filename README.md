@@ -44,6 +44,9 @@ Cuando ya tenga todos los campos configurados de click en el botón ```Crear```.
 <br />
 
 ## Conexión con IBM Cloud Shell :electric_plug:
+Para realizar la conexión y prueba de la base de datos con el Shell de *IBM* realice lo siguiente:
+
+1. Dentro de su cuenta de *IBM Cloud* acceda al ```IBM Cloud Shell``` dando click en la pestaña <a href="https://cloud.ibm.com/shell"><img width="25" src="https://github.com/emeloibmco/IBM-Cloud-PostgreSQL-Despliegue/blob/main/Im%C3%A1genes/Shell_IBM.PNG"></a>, que se ubica en la parte superior derecha del portal. 
 <br />
 
 ## CRUD en la base de datos con IBM Cloud Shell :pick:
