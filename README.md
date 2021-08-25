@@ -108,30 +108,29 @@ Una vez se ha creado y conectado la base de datos con *pgAdmin*, se continúa el
 <br />
 
 ### 1. Crear Tabla:
-a. Teniendo en cuenta que ya existe la base de datos (*ibmclouddb* - creada al conectar el servidor), se debe crear la tabla en la cual se van a almacenar los datos. Para ello, asegurándose de tener seleccionada la base de datos en la cual va a trabajar, de click en la pestaña ```Tools``` y luego seleccione la opción ```Query Tool```. 
+  a. Teniendo en cuenta que ya existe la base de datos (*ibmclouddb* - creada al conectar el servidor), se debe crear la tabla en la cual se van a almacenar los datos. Para ello,      asegurándose de tener seleccionada la base de datos en la cual va a trabajar, de click en la pestaña ```Tools``` y luego seleccione la opción ```Query Tool```. 
+     <br />
 
-<br />
 
+  b. Posteriormente, en el ```Query Editor``` coloque el siguiente comando:
+     ```
+     CREATE TABLE nombre_tabla (id serial, columna_1 tipo_dato, columna_2 tipo_dato, ... , columna_n tipo_dato, primary key (id));
+     ```
+     <br />
 
-b. Posteriormente, en el ```Query Editor``` coloque el siguiente comando:
-```
-CREATE TABLE nombre_tabla (id serial, columna_1 tipo_dato, columna_2 tipo_dato, ... , columna_n tipo_dato, primary key (id));
-```
-<br />
+     Ejemplo:
+     ```
+     CREATE TABLE transacciones (id serial, nombre varchar(30), apellido varchar(30), ciudad varchar(30), direccion varchar(30), cedula integer, fecha date, valor integer, tipo varchar(30), primary key (id));
+     ```
 
-Ejemplo:
-```
-CREATE TABLE transacciones (id serial, nombre varchar(30), apellido varchar(30), ciudad varchar(30), direccion varchar(30), cedula integer, fecha date, valor integer, tipo varchar(30), primary key (id));
-```
+  > NOTA: los valores ```id serial``` y ```primary key (id)``` se utilizan para generar el ID de la transacción de forma automática. Reemplace las variables correspondientes a cada columna y asigne el tipo de dato a cada una. En la imagen puede ver un ejemplo con más detalle que incluye difentes variables con sus tipos de datos.
+  <br />
 
-> NOTA: los valores ```id serial``` y ```primary key (id)``` se utilizan para generar el ID de la transacción de forma automática. Reemplace las variables correspondientes a cada columna y asigne el tipo de dato a cada una. En la imagen puede ver un ejemplo con más detalle que incluye difentes variables con sus tipos de datos.
-<br />
+  c. Para crear la tabla, de click en el botón ▶ (*Execute/Refresh F5*).
 
-c. Para crear la tabla, de click en el botón ▶ (*Execute/Refresh F5*).
+  <br />
 
-<br />
-
-d. Para observar la tabla que acaba de crear, de click derecho sobre el servidor conectado y seleccione la opción ```Refresh```. Por último, dentro de la base de datos en las opciones ```Schemas/public/Tables``` de click derecho sobre la tabla creada y seleccione la opción ```View/Edit Data``` ➡ ```All Rows```. Allí puede visualizar la tabla y en la pestaña ```Data Output``` puede observar que aparecen las respectivas columnas con sus tipos de datos.
+  d. Para observar la tabla que acaba de crear, de click derecho sobre el servidor conectado y seleccione la opción ```Refresh```. Por último, dentro de la base de datos en las opciones ```Schemas/public/Tables``` de click derecho sobre la tabla creada y seleccione la opción ```View/Edit Data``` ➡ ```All Rows```. Allí puede visualizar la tabla y en la pestaña ```Data Output``` puede observar que aparecen las respectivas columnas con sus tipos de datos.
 
 <br />
 
