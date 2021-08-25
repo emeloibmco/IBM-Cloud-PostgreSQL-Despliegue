@@ -115,6 +115,22 @@ ibmcloud plugin install cloud-databases
 <br />
 
 ## CRUD en la base de datos con IBM Cloud Shell :pick:
+Una vez se ha creado y conectado el servicio de base de datos con *IBM Cloud Shell*, se continúa el ejercicio con las operaciones del CRUD (Create, Read, Update & Delete). Para ello, se presentan a continuación los pasos que se deben realizar para llevar a cabo cada una de estas operaciones:
+<br />
+
+### 1. Crear Database
+<br />
+
+### 2. Crear tabla
+<br />
+
+### 3. Agregar y visualizar datos
+<br />
+
+### 4. Actualizar y visualizar datos
+<br />
+
+### 5. Eliminar datos
 <br />
 
 ## Conexión con pgAdmin :electric_plug:
