@@ -29,17 +29,29 @@ La presente guía esta enfocada en crear un despliegue de *IBM® Cloud Databases
 
 ## Crear Base de datos PostgreSQL :floppy_disk:
 Para realizar el ejercicio lo primero que debe hacer es crear una *Base de datos PostgreSQL* en su cuenta de *IBM Cloud*. Para ello, siga los pasos que se indican a continuación:
-1. Con <a href="https://cloud.ibm.com/catalog/services/databases-for-postgresql">Databases for PostgreSQL</a>, automaticamente será redirigido a la creación de la base de datos.
+1. Con <a href="https://cloud.ibm.com/databases/databases-for-postgresql/createl">Databases for PostgreSQL</a>, automaticamente será redirigido a la creación de la base de datos.
 2. Una vez le aparezca la ventana para la configuración y creación de la *Base de Datos*, complete lo siguiente:
-* ```Ubicación```: seleccione la ubicación en la cual desea implementar la *Base de Datos*.
-* ```Plan de precios```: Standard
-* ```Nombre```: asigne un nombre exclusivo para la *Base de Datos*.
-* ```Grupo de recursos```: seleccione el grupo de recursos en el cual va a trabajar.
+</br>
+#### Service Details
+* ```Service name```: asigne un nombre exclusivo para la *Base de Datos** 
+* ```Resource group```: seleccione el grupo de recursos en el cual va a trabajar.
+* ```Location```: .seleccione la ubicación en la cual desea implementar la *Base de Datos*.
+</br>
+#### Service Details
+1.  ```Templates```: 
+
+Puede elegir entre cuatro perfiles pre configurados Small- Medium - Large - Extra Large.
+</br>
+
+2.  ```Custom```:
+```RAM```:  Elija la capacidad de RAM en GB.
+```Dedicated Cores```: Elija la capacidad de cores dedicados que desea. 
+```Disk Usage```: Elija la capacidad de CPU en GB. 
+
 
 Las demás caracteristicas se seleccionan por defecto. 
 
 Cuando ya tenga todos los campos configurados de click en el botón ```Crear```.
-
 <br />
 <p align="center"><img width="900" src="https://github.com/emeloibmco/IBM-Cloud-PostgreSQL-Despliegue/blob/main/Im%C3%A1genes/crearDB.gif"></p>
 <br />
