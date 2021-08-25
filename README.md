@@ -10,11 +10,11 @@ La presente guía esta enfocada en crear un despliegue de *IBM® Cloud Databases
 2. [Crear Base de datos PostgreSQL](#Crear-Base-de-datos-PostgreSQL-floppy_disk)
 3. [Generar contraseña en servicio PostgreSQL](#Generar-contraseña-en-servicio-PostgreSQL-closed_lock_with_key)
 
-#### OPCIÓN PRUEBA 1
+#### OPCIÓN PRUEBA 1 - IBM Cloud Shell
 4. [Conexión con IBM Cloud Shell](#Conexión-con-IBM-Cloud-Shell-electric_plug)
 5. [CRUD en la base de datos con IBM Cloud Shell](#CRUD-en-la-base-de-datos-con-IBM-Cloud-Shell-pick)
 
-#### OPCIÓN PRUEBA 2
+#### OPCIÓN PRUEBA 2 - pgAdmin
 6. [Conexión con pgAdmin](#Conexión-con-pgAdmin-electric_plug)
 7. [CRUD en la base de datos con pgAdmin](#CRUD-en-la-base-de-datos-con-pgAdmin-hammer)
 8. [Referencias](#Referencias-mag)
@@ -71,7 +71,7 @@ Para realizar la conexión con la base de datos deberá generar una constraseña
 <p align="center"><img width="700" src="https://github.com/emeloibmco/IBM-Cloud-PostgreSQL-Despliegue/blob/main/Im%C3%A1genes/Password.PNG"></p>
 <br />
 
-## OPCIÓN PRUEBA 1
+## OPCIÓN PRUEBA 1 - IBM Cloud Shell
 
 ## Conexión con IBM Cloud Shell :electric_plug:
 Para realizar la conexión y prueba de la base de datos con el Shell de *IBM* realice lo siguiente:
@@ -150,7 +150,7 @@ Una vez se ha creado y conectado el servicio de base de datos con *IBM Cloud She
 <p align="center"><img width="900" src="https://github.com/emeloibmco/IBM-Cloud-PostgreSQL-Despliegue/blob/main/Im%C3%A1genes/Eliminar_IBM_Shell.gif"></p>
 <br />
 
-## OPCIÓN PRUEBA 2
+## OPCIÓN PRUEBA 2 - pgAdmin
 
 ## Conexión con pgAdmin :electric_plug:
 1. Cuando abra *pgAdmin* por primera vez, se le solicita establecer una contraseña primaria, la cual será requerida cada vez que abra la aplicación.
