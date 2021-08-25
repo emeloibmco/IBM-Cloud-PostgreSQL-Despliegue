@@ -104,7 +104,7 @@ ibmcloud plugin install cloud-databases
 5. Cuando le indique si desea actualizar el plugin (en caso de estar instalado) coloque ```y```.
 <br />
 
-6. Para conectarse con el deployment de la base de datos en *IBM Cloud Shell* copie el endpoint que sale en la sección ```Overview``` del servicio ➡ ```Endpoints``` ➡ ```Quick start``` ➡ ```2. Connect to your deployment``` y coloquelo en el shell de *IBM*.
+6. Para conectarse con el deployment de la base de datos en *IBM Cloud Shell*, copie el endpoint que sale en la sección ```Overview``` del servicio ➡ ```Endpoints``` ➡ ```Quick start``` ➡ ```2. Connect to your deployment``` y coloquelo en el shell de *IBM*.
 <br />
 
 <p align="center"><img width="700" src="https://github.com/emeloibmco/IBM-Cloud-PostgreSQL-Despliegue/blob/main/Im%C3%A1genes/CopiarEndpoint.PNG"></p>
