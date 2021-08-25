@@ -16,7 +16,7 @@ La presente guía esta enfocada en crear un despliegue de *IBM® Cloud Databases
 ### Opción prueba 2
 5. [Conexión con pgAdmin](#Conexión-con-pgAdmin-electric_plug)
 6. [CRUD en la base de datos con pgAdmin](#CRUD-en-la-base-de-datos-con-pgAdmin-hammer)
-
+<br/>
 7. [Referencias](#Referencias-mag)
 8. [Autores](#Autores-black_nib)
 <br />
