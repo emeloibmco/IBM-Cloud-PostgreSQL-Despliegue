@@ -216,7 +216,7 @@ DELETE FROM transacciones WHERE id=1;
 ```
 <br />
 
-> NOTA: utilice el ```id``` para identificar que transacción desea eliminar(en este caso el id de la transacción 1). En la imagen puede ver un ejemplo más detallado.
+> NOTA: utilice el ```id``` para identificar que transacción desea eliminar (en este caso el id de la transacción 1). En la imagen puede ver un ejemplo más detallado.
 <br />
 
 b. De click en el botón ▶ (*Execute/Refresh F5*) para aplicar los cambios y actualizar la información en la tabla.
