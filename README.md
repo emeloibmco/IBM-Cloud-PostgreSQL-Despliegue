@@ -99,10 +99,20 @@ ibmcloud plugin install cloud-databases
 ```
 <br />
 
-5. Cuando le indique si desea actualizar el plugin (en caso de estar instlado) coloque ```y```.
+5. Cuando le indique si desea actualizar el plugin (en caso de estar instalado) coloque ```y```.
 <br />
 
-6. 
+6. Para conectarse con el deployment de la base de datos en *IBM Cloud Shell* copie el endpoint que sale en la sección ```Overview``` del servicio ➡ ```Endpoints``` ➡ ```Quick start``` ➡ ```2. Connect to your deployment``` y coloquelo en el shell de *IBM*.
+<br />
+
+<p align="center"><img width="700" src="https://github.com/emeloibmco/IBM-Cloud-PostgreSQL-Despliegue/blob/main/Im%C3%A1genes/CopiarEndpoint.PNG"></p>
+<br />
+
+7. Escriba la contraseña establecida en el paso [Generar contraseña en servicio PostgreSQL](#Generar-contraseña-en-servicio-PostgreSQL-closed_lock_with_key) y presiones enter.
+<br />
+
+<p align="center"><img width="700" src="https://github.com/emeloibmco/IBM-Cloud-PostgreSQL-Despliegue/blob/main/Im%C3%A1genes/Acceso_IBM_Cloud_Shell.gif"></p>
+<br />
 
 ## CRUD en la base de datos con IBM Cloud Shell :pick:
 <br />
