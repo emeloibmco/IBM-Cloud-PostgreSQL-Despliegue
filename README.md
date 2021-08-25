@@ -41,7 +41,7 @@ Las demás caracteristicas se seleccionan por defecto.
 Cuando ya tenga todos los campos configurados de click en el botón ```Crear```.
 
 <br />
-<p align="center"><img width="700" src="https://github.com/emeloibmco/IBM-Cloud-PostgreSQL-Despliegue/blob/main/Im%C3%A1genes/crearDB.gif"></p>
+<p align="center"><img width="900" src="https://github.com/emeloibmco/IBM-Cloud-PostgreSQL-Despliegue/blob/main/Im%C3%A1genes/crearDB.gif"></p>
 <br />
 
 ## Generar contraseña en servicio PostgreSQL :closed_lock_with_key:
