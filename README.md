@@ -32,14 +32,17 @@ Para realizar el ejercicio lo primero que debe hacer es crear una *Base de datos
 1. Con <a href="https://cloud.ibm.com/databases/databases-for-postgresql/createl">Databases for PostgreSQL</a>, automaticamente será redirigido a la creación de la base de datos.
 2. Una vez le aparezca la ventana para la configuración y creación de la *Base de Datos*, complete lo siguiente:
 </br>
+
 #### Service Details
+
 * ```Service name```: asigne un nombre exclusivo para la *Base de Datos** 
 * ```Resource group```: seleccione el grupo de recursos en el cual va a trabajar.
 * ```Location```: .seleccione la ubicación en la cual desea implementar la *Base de Datos*.
 </br>
-#### Service Details
-1.  ```Templates```: 
 
+#### Resource Allocation
+
+1.  ```Templates```: 
 Puede elegir entre cuatro perfiles pre configurados Small- Medium - Large - Extra Large.
 </br>
 
