@@ -8,8 +8,12 @@ La presente guía esta enfocada en crear un despliegue de *IBM® Cloud Databases
 ## Índice  📰
 1. [Pre-Requisitos](#Pre-Requisitos-pencil)
 2. [Crear Base de datos PostgreSQL](#Crear-Base-de-datos-PostgreSQL-floppy_disk)
+
+### Opción prueba 1
 3. [Conexión con IBM Cloud Shell](#Conexión-con-IBM-Cloud-Shell-electric_plug)
 4. [CRUD en la base de datos con IBM Cloud Shell](#CRUD-en-la-base-de-datos-con-IBM-Cloud-Shell-hammer)
+
+### Opción prueba 2
 5. [Conexión con pgAdmin](#Conexión-con-pgAdmin-electric_plug)
 6. [CRUD en la base de datos con pgAdmin](#CRUD-en-la-base-de-datos-con-pgAdmin-hammer)
 7. [Referencias](#Referencias-mag)
