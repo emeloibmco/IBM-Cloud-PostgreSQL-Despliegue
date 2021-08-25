@@ -121,16 +121,31 @@ Una vez se ha creado y conectado el servicio de base de datos con *IBM Cloud She
 ### 1. Crear Database
 <br />
 
+<p align="center"><img width="900" src="https://github.com/emeloibmco/IBM-Cloud-PostgreSQL-Despliegue/blob/main/Im%C3%A1genes/CrearDB_IBM_Shell.gif"></p>
+<br />
+
 ### 2. Crear tabla
+<br />
+
+<p align="center"><img width="900" src="https://github.com/emeloibmco/IBM-Cloud-PostgreSQL-Despliegue/blob/main/Im%C3%A1genes/CrearTabla_IBM_Shell.gif"></p>
 <br />
 
 ### 3. Agregar y visualizar datos
 <br />
 
+<p align="center"><img width="900" src="https://github.com/emeloibmco/IBM-Cloud-PostgreSQL-Despliegue/blob/main/Im%C3%A1genes/Insertar_IBM_Shell.gif"></p>
+<br />
+
 ### 4. Actualizar y visualizar datos
 <br />
 
+<p align="center"><img width="900" src="https://github.com/emeloibmco/IBM-Cloud-PostgreSQL-Despliegue/blob/main/Im%C3%A1genes/Actualizar_IBM_Shell.gif"></p>
+<br />
+
 ### 5. Eliminar datos
+<br />
+
+<p align="center"><img width="900" src="https://github.com/emeloibmco/IBM-Cloud-PostgreSQL-Despliegue/blob/main/Im%C3%A1genes/Eliminar_IBM_Shell.gif"></p>
 <br />
 
 ## Conexión con pgAdmin :electric_plug:
