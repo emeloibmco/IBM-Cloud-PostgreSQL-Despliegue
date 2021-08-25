@@ -44,7 +44,6 @@ Para realizar el ejercicio lo primero que debe hacer es crear una *Base de datos
 
 1.  ```Templates```: 
 Puede elegir entre cuatro perfiles pre configurados Small- Medium - Large - Extra Large.
-</br>
 
 2.  ```Custom```:
 ```RAM```:  Elija la capacidad de RAM en GB.
