@@ -176,7 +176,7 @@ CREATE TABLE transacciones (id serial, nombre varchar(30), apellido varchar(30),
 b. Para ver la lista de las tablas creadas utilice el comando ```\dt```
 <br />
 
-<p align="center"><img width="700" src="https://github.com/emeloibmco/IBM-Cloud-PostgreSQL-Despliegue/blob/main/Im%C3%A1genes/CrearTabla_IBM_Shell_Final.PNG"></p>
+<p align="center"><img width="900" src="https://github.com/emeloibmco/IBM-Cloud-PostgreSQL-Despliegue/blob/main/Im%C3%A1genes/CrearTabla_IBM_Shell_Final.PNG"></p>
 <br />
 
 ### 3. Agregar y visualizar datos
@@ -207,7 +207,7 @@ select * from transacciones;
 ```
 <br />
 
-<p align="center"><img width="700" src="https://github.com/emeloibmco/IBM-Cloud-PostgreSQL-Despliegue/blob/main/Im%C3%A1genes/Insertar_IBM_Shell_Final.PNG"></p>
+<p align="center"><img width="900" src="https://github.com/emeloibmco/IBM-Cloud-PostgreSQL-Despliegue/blob/main/Im%C3%A1genes/Insertar_IBM_Shell_Final.PNG"></p>
 <br />
 
 ### 4. Actualizar y visualizar datos
@@ -242,7 +242,7 @@ select * from transacciones;
 ```
 <br />
 
-<p align="center"><img width="700" src="https://github.com/emeloibmco/IBM-Cloud-PostgreSQL-Despliegue/blob/main/Im%C3%A1genes/Actualizar_IBM_Shell_Final.PNG"></p>
+<p align="center"><img width="800" src="https://github.com/emeloibmco/IBM-Cloud-PostgreSQL-Despliegue/blob/main/Im%C3%A1genes/Actualizar_IBM_Shell_Final.PNG"></p>
 <br />
 
 ### 5. Eliminar datos
