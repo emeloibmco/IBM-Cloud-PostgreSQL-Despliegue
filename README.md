@@ -47,9 +47,9 @@ Puede elegir entre cuatro perfiles pre configurados Small- Medium - Large - Extr
 
 2.  ```Custom```:
 
-* ```RAM```:  Elija la capacidad de RAM en GB.
-* ```Dedicated Cores```: Elija la capacidad de cores dedicados que desea. 
-* ```Disk Usage```: Elija la capacidad de CPU en GB. 
+* ```RAM```:  indique la capacidad de RAM en GB. Por ejemplo: 4 GB.
+* ```Dedicated Cores```: indique la capacidad de cores dedicados que desea.  Por ejemplo: 0.
+* ```Disk Usage```: indique la capacidad de CPU en GB. Por ejemplo: 20 GB.
 
 
 Las demás caracteristicas se seleccionan por defecto. 
