@@ -111,7 +111,7 @@ ibmcloud plugin install cloud-databases
 7. Escriba la contraseña establecida en el paso [Generar contraseña en servicio PostgreSQL](#Generar-contraseña-en-servicio-PostgreSQL-closed_lock_with_key) y presiones enter.
 <br />
 
-<p align="center"><img width="700" src="https://github.com/emeloibmco/IBM-Cloud-PostgreSQL-Despliegue/blob/main/Im%C3%A1genes/Acceso_IBM_Cloud_Shell.gif"></p>
+<p align="center"><img width="900" src="https://github.com/emeloibmco/IBM-Cloud-PostgreSQL-Despliegue/blob/main/Im%C3%A1genes/Acceso_IBM_Cloud_Shell.gif"></p>
 <br />
 
 ## CRUD en la base de datos con IBM Cloud Shell :pick:
