@@ -127,7 +127,21 @@ Una vez se ha creado y conectado el servicio de base de datos con *IBM Cloud She
 <br />
 
 ### 2. Crear tabla
+a. Teniendo en cuenta que ya se encuentra dentro de la base de datos, se debe crear la tabla en la cual se van a almacenar los datos. Para ello, continuando en el *IBM Cloud Shell* coloque el comando:
 <br />
+
+ ```
+CREATE TABLE nombre_tabla (id serial, columna_1 tipo_dato, columna_2 tipo_dato, ... , columna_n tipo_dato, primary key (id));
+```
+<br />
+
+Ejemplo:
+```
+CREATE TABLE transacciones (id serial, nombre varchar(30), apellido varchar(30), ciudad varchar(30), direccion varchar(30), cedula integer, fecha date, valor integer, tipo varchar(30), primary key (id));
+```
+<br />
+
+b. 
 
 <p align="center"><img width="900" src="https://github.com/emeloibmco/IBM-Cloud-PostgreSQL-Despliegue/blob/main/Im%C3%A1genes/CrearTabla_IBM_Shell.gif"></p>
 <br />
