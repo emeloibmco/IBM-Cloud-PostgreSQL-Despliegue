@@ -141,10 +141,7 @@ CREATE TABLE transacciones (id serial, nombre varchar(30), apellido varchar(30),
 ```
 <br />
 
-b. Para ver la lista de las tablas creadas utilice el comando:
-```
-\dt
-```
+b. Para ver la lista de las tablas creadas utilice el comando ```\dt```
 <br />
 
 <p align="center"><img width="900" src="https://github.com/emeloibmco/IBM-Cloud-PostgreSQL-Despliegue/blob/main/Im%C3%A1genes/CrearTabla_IBM_Shell.gif"></p>
