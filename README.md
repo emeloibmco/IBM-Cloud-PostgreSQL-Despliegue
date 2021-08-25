@@ -108,29 +108,29 @@ Una vez se ha creado y conectado la base de datos con *pgAdmin*, se continúa el
 <br />
 
 ### 1. Crear Tabla:
-  a. Teniendo en cuenta que ya existe la base de datos (*ibmclouddb* - creada al conectar el servidor), se debe crear la tabla en la cual se van a almacenar los datos. Para ello,      asegurándose de tener seleccionada la base de datos en la cual va a trabajar, de click en la pestaña ```Tools``` y luego seleccione la opción ```Query Tool```. 
-     <br />
+a. Teniendo en cuenta que ya existe la base de datos (*ibmclouddb* - creada al conectar el servidor), se debe crear la tabla en la cual se van a almacenar los datos. Para ello,    asegurándose de tener seleccionada la base de datos en la cual va a trabajar, de click en la pestaña ```Tools``` y luego seleccione la opción ```Query Tool```. 
+<br />
 
 
-  b. Posteriormente, en el ```Query Editor``` coloque el siguiente comando:
-     ```
-     CREATE TABLE nombre_tabla (id serial, columna_1 tipo_dato, columna_2 tipo_dato, ... , columna_n tipo_dato, primary key (id));
-     ```
-     <br />
+b. Posteriormente, en el ```Query Editor``` coloque el siguiente comando:
+ ```
+CREATE TABLE nombre_tabla (id serial, columna_1 tipo_dato, columna_2 tipo_dato, ... , columna_n tipo_dato, primary key (id));
+```
+<br />
 
-     Ejemplo:
-     ```
-     CREATE TABLE transacciones (id serial, nombre varchar(30), apellido varchar(30), ciudad varchar(30), direccion varchar(30), cedula integer, fecha date, valor integer, tipo varchar(30), primary key (id));
-     ```
+Ejemplo:
+```
+CREATE TABLE transacciones (id serial, nombre varchar(30), apellido varchar(30), ciudad varchar(30), direccion varchar(30), cedula integer, fecha date, valor integer, tipo varchar(30), primary key (id));
+```
 
-  > NOTA: los valores ```id serial``` y ```primary key (id)``` se utilizan para generar el ID de la transacción de forma automática. Reemplace las variables correspondientes a cada columna y asigne el tipo de dato a cada una. En la imagen puede ver un ejemplo con más detalle que incluye difentes variables con sus tipos de datos.
-  <br />
+> NOTA: los valores ```id serial``` y ```primary key (id)``` se utilizan para generar el ID de la transacción de forma automática. 
+<br />
 
-  c. Para crear la tabla, de click en el botón ▶ (*Execute/Refresh F5*).
+c. Para crear la tabla, de click en el botón ▶ (*Execute/Refresh F5*).
 
-  <br />
+<br />
 
-  d. Para observar la tabla que acaba de crear, de click derecho sobre el servidor conectado y seleccione la opción ```Refresh```. Por último, dentro de la base de datos en las opciones ```Schemas/public/Tables``` de click derecho sobre la tabla creada y seleccione la opción ```View/Edit Data``` ➡ ```All Rows```. Allí puede visualizar la tabla y en la pestaña ```Data Output``` puede observar que aparecen las respectivas columnas con sus tipos de datos.
+d. Para observar la tabla que acaba de crear, de click derecho sobre el servidor conectado y seleccione la opción ```Refresh```. Por último, dentro de la base de datos en las opciones ```Schemas/public/Tables``` de click derecho sobre la tabla creada y seleccione la opción ```View/Edit Data``` ➡ ```All Rows```. Allí puede visualizar la tabla y en la pestaña ```Data Output``` puede observar que aparecen las respectivas columnas con sus tipos de datos.
 
 <br />
 
@@ -147,8 +147,12 @@ a. Diríjase nuevamente al ```Query Editor``` y coloque el siguiente comando:
 ```
 INSERT INTO nombre_tabla (columna_1, columna_2, ... , columna_n) VALUES(valor_1, valor_2, ... , valor_n);
 ```
+<br />
 
-> NOTA: recuerde reemplazar las variables de cada columna junto con el respectivo valor. Si trabaja con datos de tipo varchar o tipo date, coloque el valor en comillas sencillas (ejemplo: 'teamcloud'). En la imagen puede ver un ejemplo más detallado.
+Ejemplo:
+```
+INSERT INTO transacciones (nombre, apellido, ciudad, direccion, cedula, fecha, valor, tipo) VALUES('Diana', 'Espitia', 'Bogotá', 'Cra. 53 No. 100- 25', 1234567890, '03/08/2021', 200000, 'Consignación');
+```
 <br />
 
 b. De click en el botón ▶ (*Execute/Refresh F5*) para agregar los datos a la tabla.
@@ -172,6 +176,13 @@ a. Diríjase nuevamente al ```Query Editor``` y coloque el siguiente comando:
 ```
 UPDATE nombre_tabla set columna_1=valor_nuevo where id=1;
 ```
+<br />
+
+Ejemplo:
+```
+UPDATE transacciones set nombre='Andrea' where id=1;
+```
+<br />
 
 > NOTA: para este caso cambie el valor ```columna_1``` con el nombre de la variable que desea modificar, adicionalmente asigne el valor que desea visualizar ahora en dicha variable. Por otro lado, se utiliza el ```id``` para identificar a que transacción se le desea realizar la modificación (en este caso el id de la transacción 1). En la imagen puede ver un ejemplo más detallado.
 <br />
@@ -197,6 +208,13 @@ a. Diríjase nuevamente al ```Query Editor``` y coloque el siguiente comando:
 ```
 DELETE FROM nombre_tabla WHERE id=1;
 ```
+<br />
+
+Ejemplo:
+```
+DELETE FROM transacciones WHERE id=1;
+```
+<br />
 
 > NOTA: para este caso cambie el valor ```nombre_tabla``` con el nombre de la tabla en la que desea eliminar datos. Adicionalmente, utilice el ```id``` para identificar que transacción se desea eliminar(en este caso el id de la transacción 1). En la imagen puede ver un ejemplo más detallado.
 <br />
