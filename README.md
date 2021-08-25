@@ -227,7 +227,7 @@ UPDATE transacciones set nombre='Andrea' where id=1;
 ```
 <br />
 
-> NOTA: utilice el ```id``` para identificar que transacción desea modificar (en este caso el id de la transacción 1). En la imagen puede ver un ejemplo más detallado.
+> NOTA: utilice el ```id``` para identificar que transacción desea modificar (en este caso el id de la transacción 1). 
 <br />
 
 b. Para ver la información de la tabla con las modificaciones realizadas utilice el comando:
@@ -262,7 +262,7 @@ DELETE FROM transacciones WHERE id=1;
 ```
 <br />
 
-> NOTA: utilice el ```id``` para identificar que transacción desea eliminar (en este caso el id de la transacción 1). En la imagen puede ver un ejemplo más detallado.
+> NOTA: utilice el ```id``` para identificar que transacción desea eliminar (en este caso el id de la transacción 1). 
 <br />
 
 b. Para ver las modificaciones realizadas en la tabla utilice el comando:
