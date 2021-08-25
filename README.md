@@ -211,7 +211,7 @@ select * from transacciones;
 <br />
 
 ### 4. Actualizar y visualizar datos
-Para actualizar los datos registrados en la tabla, realice los siguientes pasos:
+Para actualizar los datos registrados en la tabla, realice lo siguiente:
 
 <br />
 
@@ -265,7 +265,7 @@ DELETE FROM transacciones WHERE id=1;
 > NOTA: utilice el ```id``` para identificar que transacción desea eliminar (en este caso el id de la transacción 1). En la imagen puede ver un ejemplo más detallado.
 <br />
 
-b. Para ver las modificaciones realizadas en la tabla (datos eliminados) utilice el comando:
+b. Para ver las modificaciones realizadas en la tabla utilice el comando:
 ```
 select * from nombre_tabla;
 ```
