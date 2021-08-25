@@ -180,12 +180,70 @@ select * from transacciones;
 <br />
 
 ### 4. Actualizar y visualizar datos
+Para actualizar los datos registrados en la tabla, realice los siguientes pasos:
+
+<br />
+
+a. Coloque el siguiente comando en el *IBM Cloud Shell*:
+```
+UPDATE nombre_tabla set columna_1=valor_nuevo where id=1;
+```
+<br />
+
+Ejemplo:
+```
+UPDATE transacciones set nombre='Andrea' where id=1;
+```
+<br />
+
+> NOTA: utilice el ```id``` para identificar que transacción desea modificar (en este caso el id de la transacción 1). En la imagen puede ver un ejemplo más detallado.
+<br />
+
+b. Para ver la información de la tabla con las modificaciones realizadas utilice el comando:
+```
+select * from nombre_tabla;
+```
+<br />
+
+Ejemplo:
+```
+select * from transacciones;
+```
 <br />
 
 <p align="center"><img width="900" src="https://github.com/emeloibmco/IBM-Cloud-PostgreSQL-Despliegue/blob/main/Im%C3%A1genes/Actualizar_IBM_Shell.gif"></p>
 <br />
 
 ### 5. Eliminar datos
+Para eliminar los datos registrados en la tabla, realice lo siguiente:
+
+<br />
+
+a. Coloque el siguiente comando en el *IBM Cloud Shell*:
+```
+DELETE FROM nombre_tabla WHERE id=1;
+```
+<br />
+
+Ejemplo:
+```
+DELETE FROM transacciones WHERE id=1;
+```
+<br />
+
+> NOTA: utilice el ```id``` para identificar que transacción desea eliminar (en este caso el id de la transacción 1). En la imagen puede ver un ejemplo más detallado.
+<br />
+
+b. Para ver las modificaciones realizadas en la tabla (datos eliminados) utilice el comando:
+```
+select * from nombre_tabla;
+```
+<br />
+
+Ejemplo:
+```
+select * from transacciones;
+```
 <br />
 
 <p align="center"><img width="900" src="https://github.com/emeloibmco/IBM-Cloud-PostgreSQL-Despliegue/blob/main/Im%C3%A1genes/Eliminar_IBM_Shell.gif"></p>
