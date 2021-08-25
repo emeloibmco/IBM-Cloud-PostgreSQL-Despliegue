@@ -152,7 +152,7 @@ Ejemplo:
 ```
 <br />
 
-<p align="center"><img width="900" src="https://github.com/emeloibmco/IBM-Cloud-PostgreSQL-Despliegue/blob/main/Im%C3%A1genes/CrearDB_IBM_Shell.gif"></p>
+<p align="center"><img width="800" src="https://github.com/emeloibmco/IBM-Cloud-PostgreSQL-Despliegue/blob/main/Im%C3%A1genes/CrearDB_Final.PNG"></p>
 <br />
 
 ### 2. Crear tabla
