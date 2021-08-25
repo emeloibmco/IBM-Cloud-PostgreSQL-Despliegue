@@ -8,16 +8,17 @@ La presente guía esta enfocada en crear un despliegue de *IBM® Cloud Databases
 ## Índice  📰
 1. [Pre-Requisitos](#Pre-Requisitos-pencil)
 2. [Crear Base de datos PostgreSQL](#Crear-Base-de-datos-PostgreSQL-floppy_disk)
+3. [Generar contraseña en servicio PostgreSQL](#Generar-contraseña-en-servicio-PostgreSQL)
 
 #### Opción prueba 1
-3. [Conexión con IBM Cloud Shell](#Conexión-con-IBM-Cloud-Shell-electric_plug)
-4. [CRUD en la base de datos con IBM Cloud Shell](#CRUD-en-la-base-de-datos-con-IBM-Cloud-Shell-pick)
+4. [Conexión con IBM Cloud Shell](#Conexión-con-IBM-Cloud-Shell-electric_plug)
+5. [CRUD en la base de datos con IBM Cloud Shell](#CRUD-en-la-base-de-datos-con-IBM-Cloud-Shell-pick)
 
 #### Opción prueba 2
-5. [Conexión con pgAdmin](#Conexión-con-pgAdmin-electric_plug)
-6. [CRUD en la base de datos con pgAdmin](#CRUD-en-la-base-de-datos-con-pgAdmin-hammer)
-7. [Referencias](#Referencias-mag)
-8. [Autores](#Autores-black_nib)
+6. [Conexión con pgAdmin](#Conexión-con-pgAdmin-electric_plug)
+7. [CRUD en la base de datos con pgAdmin](#CRUD-en-la-base-de-datos-con-pgAdmin-hammer)
+8. [Referencias](#Referencias-mag)
+9. [Autores](#Autores-black_nib)
 <br />
 
 ## Pre Requisitos :pencil:
@@ -41,6 +42,9 @@ Cuando ya tenga todos los campos configurados de click en el botón ```Crear```.
 
 <br />
 <p align="center"><img width="700" src="https://github.com/emeloibmco/IBM-Cloud-PostgreSQL-Despliegue/blob/main/Im%C3%A1genes/CrearDB.gif"></p>
+<br />
+
+## Generar contraseña en servicio PostgreSQL
 <br />
 
 ## Conexión con IBM Cloud Shell :electric_plug:
