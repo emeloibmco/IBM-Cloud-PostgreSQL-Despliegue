@@ -70,7 +70,13 @@ ibmcloud target -r <region>
 > NOTA: Reemplace el parámetro \<region> con su respetiva información. Por ejemplo: ```us-south``` para Dallas y ```us-east``` para Washington.
 <br />
  
-2. 
+3. Luego de establecer la región, coloque el siguiente comando:
+```
+ibmcloud plugin install cloud-databases
+```
+<br />
+
+4. 
 
 ## CRUD en la base de datos con IBM Cloud Shell :pick:
 <br />
