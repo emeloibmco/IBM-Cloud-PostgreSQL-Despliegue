@@ -54,7 +54,7 @@ Puede elegir entre cuatro perfiles pre configurados Small- Medium - Large - Extr
 
 Las demás caracteristicas se seleccionan por defecto. 
 
-Cuando ya tenga todos los campos configurados de click en el botón ```Crear```.
+Cuando ya tenga todos los campos configurados de click en el botón ```Crear/Create```.
 <br />
 <p align="center"><img width="900" src="https://github.com/emeloibmco/IBM-Cloud-PostgreSQL-Despliegue/blob/main/Im%C3%A1genes/crearDB.gif"></p>
 <br />
