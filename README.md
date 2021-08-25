@@ -60,7 +60,7 @@ Cuando ya tenga todos los campos configurados de click en el botón ```Crear```.
 <br />
 
 ## Generar contraseña en servicio PostgreSQL :closed_lock_with_key:
-Para obtener realizar la conexión con la base de datos deberá generar una constraseña en el servicio. Para ello, de click en la pestaña ```Settings``` ➡ ```Change Database Admin Password``` y siga los pasos a continuación:
+Para realizar la conexión con la base de datos deberá generar una constraseña en el servicio. Para ello, de click en la pestaña ```Settings``` ➡ ```Change Database Admin Password``` y siga los pasos a continuación:
 1. Seleccione la opción  ```Generate Password```.
 
 2. Una vez sea generada, guardela.
