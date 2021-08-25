@@ -8,7 +8,7 @@ La presente guía esta enfocada en crear un despliegue de *IBM® Cloud Databases
 ## Índice  📰
 1. [Pre-Requisitos](#Pre-Requisitos-pencil)
 2. [Crear Base de datos PostgreSQL](#Crear-Base-de-datos-PostgreSQL-floppy_disk)
-3. [Generar contraseña en servicio PostgreSQL](#Generar-contraseña-en-servicio-PostgreSQL)
+3. [Generar contraseña en servicio PostgreSQL](#Generar-contraseña-en-servicio-PostgreSQL-closed_lock_with_key)
 
 #### Opción prueba 1
 4. [Conexión con IBM Cloud Shell](#Conexión-con-IBM-Cloud-Shell-electric_plug)
@@ -44,7 +44,14 @@ Cuando ya tenga todos los campos configurados de click en el botón ```Crear```.
 <p align="center"><img width="700" src="https://github.com/emeloibmco/IBM-Cloud-PostgreSQL-Despliegue/blob/main/Im%C3%A1genes/CrearDB.gif"></p>
 <br />
 
-## Generar contraseña en servicio PostgreSQL
+## Generar contraseña en servicio PostgreSQL :closed_lock_with_key:
+Para obtener realizar la conexión con la base de datos deberá generar una constraseña en el servicio. Para ello, de click en la pestaña ```Settings``` ➡ ```Change Database Admin Password``` y siga los pasos a continuación:
+* Seleccione la opción  ```Generate Password```
+* Una vez sea generada, guardela.
+* De clik en ```Change Password```
+<br />
+
+<p align="center"><img width="700" src="https://github.com/emeloibmco/IBM-Cloud-PostgreSQL-Despliegue/blob/main/Im%C3%A1genes/Password.PNG"></p>
 <br />
 
 ## Conexión con IBM Cloud Shell :electric_plug:
@@ -71,13 +78,7 @@ Para realizar la conexión y prueba de la base de datos con el Shell de *IBM* re
 * Descargue el ```TLS certificate```
 <br />
 <p align="center"><img width="700" src="https://github.com/emeloibmco/IBM-Cloud-PostgreSQL-Despliegue/blob/main/Im%C3%A1genes/Credenciales.PNG"></p>
-
-Por último, para obtener la constraseña, dirijase a ```Settings``` > ```Change Database Admin Password``` y siga los pasos a continuación:
-* Seleccione la opción  ```Generate Password```
-* Una vez sea generada, guardela.
-* De clik en ```Change Password```
 <br />
-<p align="center"><img width="700" src="https://github.com/emeloibmco/IBM-Cloud-PostgreSQL-Despliegue/blob/main/Im%C3%A1genes/Password.PNG"></p>
 
 3. En *pgAdmin*, ```Dashboard``` seleccione ```Add New Server```. A continuación se desplegará una ventana en donde debe llenar los siguientes campos:
 
@@ -93,7 +94,7 @@ En la pestaña ```Connection```:
 * ```Port```: Indique el ```Port``` de la información relevante de la base de datos.
 * ```Maintenance database```: postgres
 * ```Username```: admin
-*  ```Password```: Indique la ```Password``` guardada en el paso anterior.
+*  ```Password```: Indique la contraseña stablecida en el paso [Generar contraseña en servicio PostgreSQL](#Generar-contraseña-en-servicio-PostgreSQL-closed_lock_with_key).
 Los campos ```Role``` y ```Service``` pueden quedar vacios.
 <br />
 <p align="center"><img width="700" src="https://github.com/emeloibmco/IBM-Cloud-PostgreSQL-Despliegue/blob/main/Im%C3%A1genes/Conexion_pgAdmin_parte2.PNG"></p>
