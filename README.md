@@ -124,7 +124,7 @@ Una vez se ha creado y conectado el servicio de base de datos con *IBM Cloud She
 Para crear una instancia del servicio de base de datos implementada, complete los siguientes pasos:
 <br />
 
-1. En el *IBM Cloud Shell* cree una instancia con el comando:
+a. En el *IBM Cloud Shell* cree una instancia con el comando:
 ```
 create database nombre_instancia;
 ```
@@ -136,10 +136,10 @@ create database ccedb;
 ```
 <br />
 
-2. Genere el listado de instancias existentes de la base de datos con el comando ```\l```.
+b. Genere el listado de instancias existentes de la base de datos con el comando ```\l```.
 <br />
 
-3. Cambia la ubicación a la instancia creada anteriormente, para ello utilice:
+c. Cambia la ubicación a la instancia creada anteriormente, para ello utilice:
 ```
 \c nombre_instancia
 ```
