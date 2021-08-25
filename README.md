@@ -35,7 +35,7 @@ Para realizar el ejercicio lo primero que debe hacer es crear una *Base de datos
 
 #### Service Details
 
-* ```Service name```: asigne un nombre exclusivo para la *Base de Datos** 
+* ```Service name```: asigne un nombre exclusivo para la *Base de Datos*. 
 * ```Resource group```: seleccione el grupo de recursos en el cual va a trabajar.
 * ```Location```: .seleccione la ubicación en la cual desea implementar la *Base de Datos*.
 </br>
@@ -77,21 +77,32 @@ Para realizar la conexión y prueba de la base de datos con el Shell de *IBM* re
 1. Dentro de su cuenta de *IBM Cloud* acceda al ```IBM Cloud Shell``` dando click en la pestaña <a href="https://cloud.ibm.com/shell"> <img width="25" src="https://github.com/emeloibmco/IBM-Cloud-PostgreSQL-Despliegue/blob/main/Im%C3%A1genes/Shell_IBM.PNG"></a>, que se ubica en la parte superior derecha del portal. 
 <br />
 
-2. Asegúrese de estar en le región en donde tiene desplegada su base de datos. Si debe cambiar la región utilice el comando:
+2. Asegúrese de estar en la región en donde tiene desplegada su base de datos. Si debe cambiar la región utilice el comando:
 ```
 ibmcloud target -r <region>
 ```
 
 > NOTA: Reemplace el parámetro \<region> con su respetiva información. Por ejemplo: ```us-south``` para Dallas y ```us-east``` para Washington.
 <br />
+
+3. Asegúrese de tener selccionado el grupo de recursos en donde tiene desplegada su base de datos. Para ello, utilice el comando:
+```
+ibmcloud target -g <grupo_recursos>
+```
+
+> NOTA: Reemplace el parámetro \<grupo_recursos> con su respetiva información. 
+<br />
  
-3. Luego de establecer la región, coloque el siguiente comando:
+4. Luego de establecer la región y el grupo de recursos, coloque el siguiente comando para instalat el plugin ```ibmcloud cdb```:
 ```
 ibmcloud plugin install cloud-databases
 ```
 <br />
 
-4. 
+5. Cuando le indique si desea actualizar el plugin (en caso de estar instlado) coloque ```y```.
+<br />
+
+6. 
 
 ## CRUD en la base de datos con IBM Cloud Shell :pick:
 <br />
