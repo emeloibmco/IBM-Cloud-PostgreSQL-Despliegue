@@ -43,9 +43,11 @@ Para realizar el ejercicio lo primero que debe hacer es crear una *Base de datos
 #### Resource Allocation
 
 1.  ```Templates```: 
+
 Puede elegir entre cuatro perfiles pre configurados Small- Medium - Large - Extra Large.
 
 2.  ```Custom```:
+
 ```RAM```:  Elija la capacidad de RAM en GB.
 ```Dedicated Cores```: Elija la capacidad de cores dedicados que desea. 
 ```Disk Usage```: Elija la capacidad de CPU en GB. 
