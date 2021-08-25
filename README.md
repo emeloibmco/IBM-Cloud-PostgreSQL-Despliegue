@@ -184,7 +184,7 @@ UPDATE transacciones set nombre='Andrea' where id=1;
 ```
 <br />
 
-> NOTA: para este caso cambie el valor ```columna_1``` con el nombre de la variable que desea modificar, adicionalmente asigne el valor que desea visualizar ahora en dicha variable. Por otro lado, se utiliza el ```id``` para identificar a que transacción se le desea realizar la modificación (en este caso el id de la transacción 1). En la imagen puede ver un ejemplo más detallado.
+> NOTA: utilice el ```id``` para identificar a que transacción se le desea realizar la modificación (en este caso el id de la transacción 1). En la imagen puede ver un ejemplo más detallado.
 <br />
 
 b. De click en el botón ▶ (*Execute/Refresh F5*) para aplicar los cambios y actualizar los datos en la tabla.
@@ -216,7 +216,7 @@ DELETE FROM transacciones WHERE id=1;
 ```
 <br />
 
-> NOTA: para este caso cambie el valor ```nombre_tabla``` con el nombre de la tabla en la que desea eliminar datos. Adicionalmente, utilice el ```id``` para identificar que transacción se desea eliminar(en este caso el id de la transacción 1). En la imagen puede ver un ejemplo más detallado.
+> NOTA: utilice el ```id``` para identificar que transacción se desea eliminar(en este caso el id de la transacción 1). En la imagen puede ver un ejemplo más detallado.
 <br />
 
 b. De click en el botón ▶ (*Execute/Refresh F5*) para aplicar los cambios y actualizar la información en la tabla.
