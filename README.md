@@ -8,10 +8,12 @@ La presente guía esta enfocada en crear un despliegue de *IBM® Cloud Databases
 ## Índice  📰
 1. [Pre-Requisitos](#Pre-Requisitos-pencil)
 2. [Crear Base de datos PostgreSQL](#Crear-Base-de-datos-PostgreSQL-floppy_disk)
-3. [Conexión con pgAdmin](#Conexión-con-pgAdmin-electric_plug)
-4. [CRUD en la base de datos](#CRUD-en-la-base-de-datos-hammer)
-5. [Referencias](#Referencias-mag)
-6. [Autores](#Autores-black_nib)
+3. [Conexión con IBM Cloud Shell](#Conexión-con-IBM-Cloud-Shell-electric_plug)
+4. [CRUD en la base de datos con IBM Cloud Shell](#CRUD-en-la-base-de-datos-con-IBM-Cloud-Shell-hammer)
+5. [Conexión con pgAdmin](#Conexión-con-pgAdmin-electric_plug)
+6. [CRUD en la base de datos con pgAdmin](#CRUD-en-la-base-de-datos-con-pgAdmin-hammer)
+7. [Referencias](#Referencias-mag)
+8. [Autores](#Autores-black_nib)
 <br />
 
 ## Pre Requisitos :pencil:
@@ -35,6 +37,12 @@ Cuando ya tenga todos los campos configurados de click en el botón ```Crear```.
 
 <br />
 <p align="center"><img width="700" src="https://github.com/emeloibmco/IBM-Cloud-PostgreSQL-Despliegue/blob/main/Im%C3%A1genes/CrearDB.gif"></p>
+<br />
+
+## Conexión con IBM Cloud Shell :electric_plug:
+<br />
+
+## CRUD en la base de datos con IBM Cloud Shell :hammer:
 <br />
 
 ## Conexión con pgAdmin :electric_plug:
@@ -91,7 +99,7 @@ Cuando tenga todas las pestañas configuradas, de click en ```Save``` para que *
 
 <br />
 
-## CRUD en la base de datos :hammer:
+## CRUD en la base de datos con pgAdmin :hammer:
 Una vez se ha creado y conectado la base de datos con *pgAdmin*, se continúa el ejercicio con las operaciones del CRUD (Create, Read, Update & Delete). Para ello, se presentan a continuación los pasos que se deben realizar para llevar a cabo cada una de estas operaciones:
 <br />
 
