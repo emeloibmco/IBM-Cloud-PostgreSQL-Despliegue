@@ -110,7 +110,7 @@ ibmcloud plugin install cloud-databases
 <p align="center"><img width="700" src="https://github.com/emeloibmco/IBM-Cloud-PostgreSQL-Despliegue/blob/main/Im%C3%A1genes/CopiarEndpoint.PNG"></p>
 <br />
 
-7. Escriba la contraseña establecida en el paso [Generar contraseña en servicio PostgreSQL](#Generar-contraseña-en-servicio-PostgreSQL-closed_lock_with_key) y presiones enter.
+7. Escriba la contraseña establecida en el paso [Generar contraseña en servicio PostgreSQL](#Generar-contraseña-en-servicio-PostgreSQL-closed_lock_with_key) y presione enter.
 <br />
 
 <p align="center"><img width="1000" src="https://github.com/emeloibmco/IBM-Cloud-PostgreSQL-Despliegue/blob/main/Im%C3%A1genes/Acceso_IBM_Cloud_Shell_Final.PNG"></p>
