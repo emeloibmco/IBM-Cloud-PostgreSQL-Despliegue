@@ -11,12 +11,11 @@ La presente guía esta enfocada en crear un despliegue de *IBM® Cloud Databases
 
 #### Opción prueba 1
 3. [Conexión con IBM Cloud Shell](#Conexión-con-IBM-Cloud-Shell-electric_plug)
-4. [CRUD en la base de datos con IBM Cloud Shell](#CRUD-en-la-base-de-datos-con-IBM-Cloud-Shell-hammer)
+4. [CRUD en la base de datos con IBM Cloud Shell](#CRUD-en-la-base-de-datos-con-IBM-Cloud-Shell-pick)
 
 #### Opción prueba 2
 5. [Conexión con pgAdmin](#Conexión-con-pgAdmin-electric_plug)
 6. [CRUD en la base de datos con pgAdmin](#CRUD-en-la-base-de-datos-con-pgAdmin-hammer)
-
 7. [Referencias](#Referencias-mag)
 8. [Autores](#Autores-black_nib)
 <br />
@@ -47,7 +46,7 @@ Cuando ya tenga todos los campos configurados de click en el botón ```Crear```.
 ## Conexión con IBM Cloud Shell :electric_plug:
 <br />
 
-## CRUD en la base de datos con IBM Cloud Shell :hammer:
+## CRUD en la base de datos con IBM Cloud Shell :pick:
 <br />
 
 ## Conexión con pgAdmin :electric_plug:
