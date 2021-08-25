@@ -140,7 +140,7 @@ b. Genere el listado de instancias existentes de la base de datos con el comando
 
 <br />
 
-c. Cambie la ubicación a la instancia creada anteriormente, para ello utilice:
+c. Muévase a la instancia creada anteriormente, para ello utilice:
 ```
 \c nombre_instancia
 ```
