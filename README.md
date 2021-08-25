@@ -120,14 +120,45 @@ ibmcloud plugin install cloud-databases
 Una vez se ha creado y conectado el servicio de base de datos con *IBM Cloud Shell*, se continúa el ejercicio con las operaciones del CRUD (Create, Read, Update & Delete). Para ello, se presentan a continuación los pasos que se deben realizar para llevar a cabo cada una de estas operaciones:
 <br />
 
-### 1. Crear Database
+### 1. Crear instancia de base de datos
+Para crear una instancia del servicio de base de datos implementada, complete los siguientes pasos:
+<br />
+
+1. En el *IBM Cloud Shell* cree una instancia con el comando:
+```
+create database nombre_instancia;
+```
+<br />
+
+Ejemplo:
+```
+create database ccedb;
+```
+<br />
+
+2. Genere el listado de instancias existentes de la base de datos con el comando ```\l```.
+<br />
+
+3. Cambia la ubicación a la instancia creada anteriormente, para ello utilice:
+```
+\c nombre_instancia
+```
+<br />
+
+Ejemplo:
+```
+\c ccedb;
+```
 <br />
 
 <p align="center"><img width="900" src="https://github.com/emeloibmco/IBM-Cloud-PostgreSQL-Despliegue/blob/main/Im%C3%A1genes/CrearDB_IBM_Shell.gif"></p>
 <br />
 
 ### 2. Crear tabla
-a. Teniendo en cuenta que ya se encuentra dentro de la base de datos, se debe crear la tabla en la cual se van a almacenar los datos. Para ello, continuando en el *IBM Cloud Shell* coloque el comando:
+Teniendo en cuenta que ya se encuentra dentro de la base de datos, se debe crear la tabla en la cual se van a almacenar los datos. Para ello, realice lo siguiente:
+<br />
+
+a.  En el *IBM Cloud Shell* cree la tabla mediante el comando:
 <br />
 
 ```
@@ -149,7 +180,6 @@ b. Para ver la lista de las tablas creadas utilice el comando ```\dt```
 
 ### 3. Agregar y visualizar datos
 El paso siguiente consiste en insertar datos en la tabla que se acaba de crear, para ello realice lo siguiente:
-
 <br />
 
 a. Coloque el siguiente comando en el *IBM Cloud Shell*:
