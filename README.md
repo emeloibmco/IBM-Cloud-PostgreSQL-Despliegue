@@ -62,10 +62,12 @@ Para realizar la conexión y prueba de la base de datos con el Shell de *IBM* re
 1. Dentro de su cuenta de *IBM Cloud* acceda al ```IBM Cloud Shell``` dando click en la pestaña <a href="https://cloud.ibm.com/shell"> <img width="25" src="https://github.com/emeloibmco/IBM-Cloud-PostgreSQL-Despliegue/blob/main/Im%C3%A1genes/Shell_IBM.PNG"></a>, que se ubica en la parte superior derecha del portal. 
 <br />
 
-2. Asegúrese de estar en le región en donde tiene desplegada su base de datos. Si debe cambiar de región utilice el comando:
+2. Asegúrese de estar en le región en donde tiene desplegada su base de datos. Si debe cambiar la región utilice el comando:
 ```
 ibmcloud target -r <region>
 ```
+
+> NOTA: Reemplace el parámetro <region> con su respetiva información. Para mayor información puede consultar <a href="https://cloud.ibm.com/docs/Registry?topic=Registry-registry_overview#registry_regions">Regiones  IBM Cloud </a>.
 <br />
 
 ## CRUD en la base de datos con IBM Cloud Shell :pick:
