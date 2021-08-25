@@ -148,6 +148,32 @@ b. Para ver la lista de las tablas creadas utilice el comando ```\dt```
 <br />
 
 ### 3. Agregar y visualizar datos
+El paso siguiente consiste en insertar datos en la tabla que se acaba de crear, para ello realice lo siguiente:
+
+<br />
+
+a. Coloque el siguiente comando en el *IBM Cloud Shell*:
+```
+INSERT INTO nombre_tabla (columna_1, columna_2, ... , columna_n) VALUES(valor_1, valor_2, ... , valor_n);
+```
+<br />
+
+Ejemplo:
+```
+INSERT INTO transacciones (nombre, apellido, ciudad, direccion, cedula, fecha, valor, tipo) VALUES('Diana', 'Espitia', 'Bogotá', 'Cra. 53 No. 100- 25', 1234567890, '03/08/2021', 200000, 'Consignación');
+```
+<br />
+
+b. Para ver la información de la tabla con los datos insertados utilice el comando:
+```
+select * from nombre_tabla;
+```
+<br />
+
+Ejemplo:
+```
+select * from transacciones;
+```
 <br />
 
 <p align="center"><img width="900" src="https://github.com/emeloibmco/IBM-Cloud-PostgreSQL-Despliegue/blob/main/Im%C3%A1genes/Insertar_IBM_Shell.gif"></p>
