@@ -87,7 +87,7 @@ ibmcloud target -r <region>
 > NOTA: Reemplace el parámetro \<region> con su respetiva información. Por ejemplo: ```us-south``` para Dallas y ```us-east``` para Washington.
 <br />
 
-3. Asegúrese de tener selccionado el grupo de recursos en donde tiene desplegada su base de datos. Para ello, utilice el comando:
+3. Asegúrese de tener seleccionado el grupo de recursos en donde tiene desplegada su base de datos. Para ello, utilice el comando:
 ```
 ibmcloud target -g <grupo_recursos>
 ```
