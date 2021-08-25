@@ -71,6 +71,9 @@ Para realizar la conexión con la base de datos deberá generar una constraseña
 <p align="center"><img width="700" src="https://github.com/emeloibmco/IBM-Cloud-PostgreSQL-Despliegue/blob/main/Im%C3%A1genes/Password.PNG"></p>
 <br />
 
+## Opción prueba 1
+<br /> 
+
 ## Conexión con IBM Cloud Shell :electric_plug:
 Para realizar la conexión y prueba de la base de datos con el Shell de *IBM* realice lo siguiente:
 
@@ -147,6 +150,9 @@ Una vez se ha creado y conectado el servicio de base de datos con *IBM Cloud She
 
 <p align="center"><img width="900" src="https://github.com/emeloibmco/IBM-Cloud-PostgreSQL-Despliegue/blob/main/Im%C3%A1genes/Eliminar_IBM_Shell.gif"></p>
 <br />
+
+## Opción prueba 2
+<br /> 
 
 ## Conexión con pgAdmin :electric_plug:
 1. Cuando abra *pgAdmin* por primera vez, se le solicita establecer una contraseña primaria, la cual será requerida cada vez que abra la aplicación.
