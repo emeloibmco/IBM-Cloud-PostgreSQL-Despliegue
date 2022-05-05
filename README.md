@@ -17,6 +17,7 @@ La presente guía esta enfocada en crear un despliegue de *IBM® Cloud Databases
 #### OPCIÓN PRUEBA 2 - pgAdmin
 6. [Conexión con pgAdmin](#Conexión-con-pgAdmin-electric_plug)
 7. [CRUD en la base de datos con pgAdmin](#CRUD-en-la-base-de-datos-con-pgAdmin-hammer)
+8. [Importar/Exportar datos con CSV en pgAdmin](#importarexportar-datos-con-csv-en-pgadmin-pagefacingup)
 8. [Referencias](#Referencias-mag)
 9. [Autores](#Autores-black_nib)
 <br />
@@ -457,6 +458,33 @@ c. Para observar nuevamente la tabla, regrese a ```View/Edit Data``` ➡ ```All 
 <p align="center"><img width="700" src="https://github.com/emeloibmco/IBM-Cloud-PostgreSQL-Despliegue/blob/main/Im%C3%A1genes/EliminarDatos.gif"></p>
 
 <br />
+
+## Importar/Exportar datos con CSV en pgAdmin :page_facing_up:
+En el repositorio podrá encontrar el archivo ```datos.csv```, el cual contiene las mismas columnas de las tablas creadas previamente en este repositorio, sin encabezados ni IDs.
+
+Para importar datos asegúrese de seleccionar la base de datos y tabla en la cual quiere trabajar, en este caso será en *ibmclouddb*, la tabla con nombre *transacciones*. En la pestaña *tools* seleccione la opción ```Import/Export data``` y complete la siguiente información:
+
+* Seleccione la opción ```Import```
+* ```Filename```: Navegue hasta la ubicación de su archivo CSV y selecciónelo
+* ```Format```: csv
+* ```Encoding```: El formato de codificación de caracteres de su archivo, en este caso UTF8
+* ```Header```: Si su archivo tiene encabezados active esta opción, en este caso no debe ser activada
+* ```Delimiter```: Seleccione el delimitador de su archivo, en este caso la coma ```,```
+* En la pestaña ```Columns``` seleccione todas las columnas de la tabla en ```Columns to import```, excepto la columna *id*, para esto puede utilizar la tecla espacio repetidas veces para incluirlas todas y luego eliminar *id*
+
+<p align="center"><img width="700" src="https://github.com/emeloibmco/IBM-Cloud-PostgreSQL-Despliegue/blob/main/Im%C3%A1genes/ImportarCSV.gif"></p>
+
+Para exportar una tabla ingrese nuevamente a la pestaña *tools*, opción ```Import/Export data``` y complete la información:
+
+* Seleccione la opción ```Export```
+* ```Filename```: Navegue hasta la ubicación de su archivo CSV y selecciónelo, o escriba el nombre para un archivo nuevo
+* ```Format```: csv
+* ```Encoding```: El formato de codificación de caracteres, en este caso UTF8
+* ```Header```: Si desea exportar el archivo con encabezados active esta opción, en este caso no fue activada
+* ```Delimiter```: Seleccione el delimitador para su archivo, en este caso la coma ```,```
+* En la pestaña ```Columns``` seleccione todas las columnas de la tabla en ```Columns to export```, excepto la columna *id*, para esto puede utilizar la tecla espacio repetidas veces para incluirlas todas y luego eliminar *id*
+
+<p align="center"><img width="700" src="https://github.com/emeloibmco/IBM-Cloud-PostgreSQL-Despliegue/blob/main/Im%C3%A1genes/ExportarCSV.gif"></p>
 
 ## Referencias :mag:
 * <a href="https://cloud.ibm.com/docs/databases-for-postgresql?topic=databases-for-postgresql-getting-started"> Get Started PostgreSQL</a>.
